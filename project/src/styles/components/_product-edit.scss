@@ -1,0 +1,67 @@
+.product-edit{
+    height:100vh;
+}
+.product-edit__container{
+    width:100%;
+    height: 100%;
+    padding:0vw 3vw;
+    animation: moveInLeft 1s ease-in-out;
+   
+}
+.product-edit-form--main-header{
+    background-color:brown;
+    width: 102%;
+    margin-left:-1%;
+    border-radius: 5px;
+    height: 12vh;
+    margin-top:-1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.product-edit-form--main-header--content{
+    color:white !important;
+    font-size: 200%;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.product-edit-form--content{
+    padding-left: 25%;
+}
+.product-edit-form{
+    background: rgb(236, 230, 230);
+   border-radius: 5px;
+   box-shadow: 0 55px 50px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+   outline: none;
+    padding:2vh;
+    
+    color: black;
+    
+    label{
+        opacity: 0.6;
+        display: block;
+        color:#596275;
+        font-weight: 600;
+    }
+    input,textarea{
+        display: block;
+        width:75%;
+        border-radius: 5px;
+        height: 4vh;
+        box-shadow: 0 55px 50px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.02);
+    }
+    textarea{
+        height:6vh;
+    }
+    input[type="submit"]{
+        width: 5vw;
+        text-align: center;
+        margin-top:1vw;
+        margin-left:30%;
+        font-size:80%;
+    }
+}
+.product-form-header{
+    font-size:150%;
+}

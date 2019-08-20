@@ -1,0 +1,22 @@
+
+
+.location-container{
+    width: 100%;
+    height: 100%;
+    padding-top:1vw;
+    padding-left: 50vw;
+    text-align: left;
+    font-style: oblique;
+    font-variant-caps: titling-caps;
+    animation: moveInLeft  0.7s ease-in-out;
+    font-size:150%;
+}
+
+.location-container--header{
+    font-family: 'Montserrat', sans-serif;
+    color:black;
+    font-weight: bolder;
+}
+.location-container--icon{
+    color:#00a8ff
+}

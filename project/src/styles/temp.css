@@ -1,0 +1,398 @@
+@media only screen 
+  and (max-width: 480px){
+    body{
+      font-size:20% !important;
+    }
+    .footer-container_items--copyright{
+      padding-top:0.01rem !important;
+      margin-bottom: 0.1rem;
+    }
+    .footer-container_items--page-links-content a{
+      padding-left: 0.4rem !important;
+    }
+    .footer-container_items--page-links-content{
+      padding-top:0.1rem !important;
+    }
+    .social--icons{
+      width: 1rem !important;
+      height:1rem !important;
+      line-height: 1rem !important;  
+      margin-right:0.3rem !important;
+    }
+    .FAQ__options-container-item-container{
+      height: 13.5vh !important;
+
+    }
+    .about-us__header{
+      margin-top:5rem;
+    }
+    .MessageFromCeo__content{
+      width:auto !important;
+      display: block !important;
+      line-height: 1 !important;
+    }
+    .FAQGeneral{
+      word-break: break-all;
+    }
+    .FAQGeneral__item-container {
+      height:100% !important;
+  }
+  .footer-container__items--social{
+    margin-top:0.3rem !important;
+  }
+}
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    body{
+      font-size: 45%;
+    }
+    .about-us__header{
+      margin-top:5rem;
+    }
+    .about-us-img-header--description{
+      font-size: 20%;
+    }
+    .FAQ__options-container-item-container{
+      height:17vh !important;
+    }
+    .MessageFromCeo__content{
+      width: 100% !important;
+      display: block !important;
+    }
+    .MessageFromCeo__content-header h2 {
+      font-size:100%;
+    }
+} 
+
+
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    
+    .FAQGeneral__item-container {
+      height:40% !important;
+  }
+  .FAQ__options-container-item-container{
+    height:14vh !important;
+  }
+}
+@media only screen and (max-width:321px){
+  .footer{
+    width:120%;
+  }
+}
+/* Landscape */
+
+
+
+
+
+
+@media only screen 
+  and (min-width: 768px) 
+  and (max-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    body{
+      font-size:100%;
+    }
+    .FAQ__options-container-item-container{
+      height:20vh !important;
+      font-size:150% !important;
+    }
+    
+}
+
+@media only screen 
+  and (min-width: 400px) 
+  and (max-width: 780px)   
+   { 
+    body{
+      font-size: 55% !important 
+    }
+    .MessageFromCeo__content{
+      font-size:165% !important;
+    }
+    .MessageFromCeo__content-header{
+      font-size:60% !important;
+    }
+    .about-us__header{
+      margin-top:5rem;
+    }
+    .MessageFromCeo__content-header  h2 {
+      font-size:150%;
+    }
+    .FAQ__options-container-item-container{
+      height: 15vh !important;
+    }
+  }
+  
+  @media only screen 
+  and (min-width: 800px) 
+  and (max-width: 1280px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    body{
+      font-size:110%
+    }
+    .MessageFromCeo__content{
+      font-size:120%;
+    }
+   
+}
+
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .about-us__header{
+      margin-top:8rem;
+    }
+    .nav__link:visited, .nav__link:link{
+      padding:1rem !important;
+    }
+    .about-us-img-header--main{
+      letter-spacing: 0.4rem !important;
+
+    }
+    .about-us-img-header--description{
+      letter-spacing: 0.1rem !important;
+    }
+    body{
+      font-size: 30%;
+    }
+    .FAQGeneral__item-container {
+      height:40% !important;
+  }
+  .FAQ__options-container-item-container{
+    height:24vh !important;
+  }
+  
+}
+
+@media only screen 
+and (max-height: 800px) 
+and (min-width: 700px) 
+and (-webkit-min-device-pixel-ratio: 1.5) {
+  .FAQ__options-container-item-container {
+    //font-size:65%;
+  }
+}
+
+@media only screen 
+and (max-height: 400px) 
+and (min-width: 800px) 
+and (-webkit-min-device-pixel-ratio: 1.5) {
+  .FAQ__options-container-item-container {
+    font-size:50%;
+  }
+  .MessageFromCeo__content-header{
+    font-size:60% !important;
+    letter-spacing: 0rem !important;
+  }
+}
+@media only screen 
+and (min-width:1275px ) 
+and (max-height: 500px) 
+and (-webkit-min-device-pixel-ratio: 1.5) {
+  .FAQ__options-container-item-container {
+    font-size:40%;
+  }
+} 
+
+
+@media only screen 
+and (min-width: 300px) and(max-width:1700px) 
+and (min-height: 200px) and (max-height:800px) {
+ 
+  .MessageFromCeo__content-header{
+    letter-spacing: 0rem;
+    font-size: 50% ;
+  }
+}
+@media only screen 
+and (min-width:800px ) 
+and (max-height: 799px) 
+and (-webkit-min-device-pixel-ratio: 1.5) {
+  body{
+    font-size:170%;
+  }
+} 
+@media only screen 
+and (min-width: 300px) and(max-width:1000px) 
+and (min-height: 200px) and (max-height:800px) {
+  body{
+    font-size:57%
+  }
+  .MessageFromCeo__content-item{
+    font-size:75% !important;
+    line-height: 1;
+  }
+  .footer-container_items--copyright{
+    padding-top:0.01rem !important;
+  }
+  .MessageFromCeo{
+    padding-top:6rem !important;
+  }
+}
+
+@media only screen 
+and (min-width: 300px)
+and (max-height: 200px) {
+  body{
+    font-size:30%
+  }
+  .MessageFromCeo__content-header{
+    font-size:60% !important;
+    letter-spacing: 0rem !important;
+  }
+  
+}
+
+@media only screen 
+and (min-width: 950px)
+and (max-height: 700px){
+  body{
+    font-size:80%; 
+  }
+}
+@media only screen 
+and (min-width: 320px)
+and (max-width: 450px)
+and (max-height:812px)
+{ 
+  body{
+    font-size:50%;
+  }
+  .MessageFromCeo{
+    padding-top:1rem !important;
+  }
+  .MessageFromCeo__content-header{
+    font-size: 80% !important;
+  }
+}
+@media only screen 
+and (min-width: 1400px)
+and (max-height: 700px){
+  .MessageFromCeo__content-header{
+    font-size:70%;
+  }
+  
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1) and (max-width: 1800px) and (min-width: 1025px){
+  
+  .MessageFromCeo__content-item{
+    font-size:120% !important;
+  }
+}
+
+@media only screen 
+and (min-width: 500px)
+and (max-width: 900px)
+and(max-height:900px)
+{
+  .MessageFromCeo{
+  padding-top:0.5rem !important;
+  font-size:80% !important;
+  height:auto !important
+}
+  .MessageFromCeo__content-header{
+    font-size:70%;
+  }
+  
+}
+
+@media only screen and(max-width:896px){
+  .contact__button:link,.contact__button:visited{
+    padding:0.3rem 0.5rem !important  ;
+  }
+
+  .footer-container__items-contact{
+    height:35% !important;
+  }
+
+  .footer-container__items-contact--content h2{
+  display: inline !important;
+  margin-right: 0.1rem !important;
+  }
+  .FAQ__options-container-item-container {
+    font-size:85%;
+  }
+}
+
+
+@media only screen and(max-width:1150px){
+  .FAQ__options-container-item-container {
+    font-size:300%;
+  }
+}
+@media only screen and (min-width:1400px) and (min-height:1400px){
+  .MessageFromCeo__content-item {
+    font-size:170% !important;
+  }
+}
+@media only screen and(min-width:100px) and(max-width:500px) and (max-height:1200px){
+  .MessageFromCeo__content{
+    font-size:50% !important;
+  }
+  .MessageFromCeo__content-header h2{
+    font-size: 100%;
+  }
+}
+@media only screen and (min-width:400px) and(min-height:100px) and(max-height:500px){
+  .FAQ__options-container-item-container{
+    height:35vh !important;
+    font-size:75%;
+  }
+}
+@media only screen and (min-width:300px) and(min-height:1000px) {
+  .body{
+    font-size:220% !important;
+  }
+  .FAQ__options-container-item-container {
+  
+    width:22% !important;
+    height: 14vh !important;
+  }
+}
+
+@media only screen and (min-width:300px) and (min-height:1000px) {
+  body{
+   font-size:250%;
+  }
+  .MessageFromCeo__content-item{
+    font-size:85% !important;
+  }
+}
+@media only screen and (min-width:300px) and(min-height:1000px){
+  body{
+    font-size:200% !important;
+   }
+}
+
+@media only screen 
+and (min-width: 3000px) 
+and (min-height: 1800px) 
+and (-webkit-min-device-pixel-ratio: 1.5) {
+  body{
+    font-size:250% !important;
+  }
+  .social--icons{
+    width:8rem !important;
+    height:7rem !important;
+    line-height: 7rem !important;
+  }
+  .MessageFromCeo__content-item{
+    font-size:120% !important;
+  }
+  .MessageFromCeo__content  h2 {
+    font-size:200%;
+  }
+  
+}

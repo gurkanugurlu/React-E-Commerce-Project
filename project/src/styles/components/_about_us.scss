@@ -1,0 +1,136 @@
+.about-us{
+    height: 100%;
+   
+  
+  }
+  .about-us__header{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    color:$font-color;
+    text-transform: uppercase;
+    font-size: 200%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.15vw;
+    border-bottom: 1px solid rgb(219, 216, 216);
+    
+  }
+  
+
+  
+  .about-us__img-container{
+    margin-top:0.5vh;
+    height: 90vh;
+    background-image: linear-gradient(to right bottom, #2980b9, #041a12c7),
+    url(../img/about-us.jpg);
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    position: relative;
+  }
+  .about-us-img-header{
+    color: #ffffff;
+    text-transform: uppercase;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:40%;
+    left: 50%;
+    font-size:100%;
+    text-align: center;
+  }
+  
+  .about-us-img-header--main {
+    display: block;
+    font-size:400%;
+    font-weight: 400;
+    letter-spacing: 0.8vw;
+    text-align: center;
+    animation-name: moveInRight;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+  }
+  
+ 
+  .about-us-img-header--description{
+  display: block;
+  font-weight: 400;
+  letter-spacing: 0.1vw;
+   animation-name:moveInLeft;
+   opacity: 1;
+   animation-duration: 3s;
+    
+    animation-timing-function: ease-in-out;
+  }
+  
+  .about-us-info{
+    text-align: center;
+    //height: 150vh;
+  }
+  .about-us-info-container{
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .about-us-info__item{
+    cursor: pointer;
+    display: inline-block;
+  
+    border-spacing: 5vw;
+    border-bottom:1px transparent gray;
+    font-size:140%;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .about-us-info__item:hover{
+    border-spacing: 5vw;
+  border-bottom: 0.3vw solid $link-color;
+  }
+  .about-us-info__item--active{
+    border-bottom: 0.3vw solid $link-color;
+  }
+  .about_us__item-about-best-buy{
+    padding-top:1vw;
+    display:flex;
+    font-family: "Sarabun";
+  }
+  .about-us__item-about-best-buy-header-container{
+    width:50%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin:0 !important;
+  }
+  .about-us__item-about-best-buy-header{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: 0.7vw;
+    font-size:300%;
+    margin:0 !important;
+    
+  }
+  .about-us__item-about-best-buy-header h2{
+    font-size:65%;
+  }
+  .about-us__space{
+    margin-left: 1.7vw;
+  }
+  .about-us__item-about-best-buy-pages{
+    width:50%;
+    border-left: 0.1vw solid rgb(214, 210, 210)    ;
+  }
+  .about-best-buy-item{
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+
+  }
+  .about-best-buy-item__content{
+      width: 80%;
+      font-size:150%;
+  }
+

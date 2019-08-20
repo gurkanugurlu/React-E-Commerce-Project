@@ -1,0 +1,35 @@
+.page-404 {
+  height: 80vh;
+  animation: moveInLeft 0.5s ease-in-out;
+}
+.page-404__container {
+  height: 100%;
+  width: 100%;
+  background-color: #ff793f;
+  position: relative;
+  background-image: linear-gradient(to right bottom, #ff793f, #041a12c7);
+}
+.page-404__container--header--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.page-404__container--header {
+  color: white;
+  font-size: 1350%;
+  font-family: "Mont-Serrat", sans-serif;
+  font-weight: bolder;
+  display: inline-block;
+  font-style: oblique;
+}
+.page-404__container--content {
+  color: #2f3542;
+  font-size: 200%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-shadow: aliceblue;
+  display: inline-block;
+}

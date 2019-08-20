@@ -1,0 +1,39 @@
+.MessageFromCeo {
+    display: flex;
+    padding-top: 2.4vw;
+  }
+  .MessageFromCeo__content {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-right: 1.4vw;;
+  }
+  .MessageFromCeo__photo {
+    width: 20%;
+    height: 80vh;
+    background-image: url(../img/confident-man.png);
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 85%);
+  }
+  
+  .MessageFromCeo__content-item {
+    font-size: 85%;
+    margin-bottom: 2vw;
+  }
+  .MessageFromCeo__content-header {
+  font-size: 100%;
+    align-self: flex-start;
+    display: flex;
+    text-transform: uppercase;
+    letter-spacing: 0.2vw;
+    margin: 0 !important;
+    font-weight: 200;
+    font-style: italic;
+    font-family: 'Abril Fatface', serif;
+  }
+  .MessageFromCeo__content-header h2 {
+    font-size:100%;
+  }
